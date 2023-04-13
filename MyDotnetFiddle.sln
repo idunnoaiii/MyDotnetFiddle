@@ -29,9 +29,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCompare", "TestCompare\TestCompare.csproj", "{DA203947-85BF-4B57-AE6F-88C86FF0A9D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Diagnostics.CodeAnalysis", "Test_Diagnostics.CodeAnalysis\Test_Diagnostics.CodeAnalysis.csproj", "{71ACA73E-78A1-40A4-87D6-937647963372}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_NullableFeature", "Test_NullableFeature\Test_NullableFeature.csproj", "{71ACA73E-78A1-40A4-87D6-937647963372}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBlazorServerAuth", "TestBlazorServerAuth\TestBlazorServerAuth.csproj", "{714B7ADD-CFCC-447D-B1FD-45717C7B5C7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_LinqMethod", "Test_LinqMethod\Test_LinqMethod.csproj", "{857B065E-EA44-4F04-9AE7-8D63F1ABB834}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -82,6 +84,10 @@ Global
 		{714B7ADD-CFCC-447D-B1FD-45717C7B5C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{714B7ADD-CFCC-447D-B1FD-45717C7B5C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{714B7ADD-CFCC-447D-B1FD-45717C7B5C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{857B065E-EA44-4F04-9AE7-8D63F1ABB834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{857B065E-EA44-4F04-9AE7-8D63F1ABB834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{857B065E-EA44-4F04-9AE7-8D63F1ABB834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{857B065E-EA44-4F04-9AE7-8D63F1ABB834}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{60A8A12C-5A1D-4214-9B0C-76495994ED94} = {94786ACD-F565-4A3E-BFA3-F4FA4E918587}
@@ -95,5 +101,6 @@ Global
 		{DA203947-85BF-4B57-AE6F-88C86FF0A9D5} = {4AA43922-EE4F-414E-8B53-BCEBBD6C1305}
 		{71ACA73E-78A1-40A4-87D6-937647963372} = {70A8C36D-8408-4D54-A851-920E3F1CEC04}
 		{714B7ADD-CFCC-447D-B1FD-45717C7B5C7E} = {4AA43922-EE4F-414E-8B53-BCEBBD6C1305}
+		{857B065E-EA44-4F04-9AE7-8D63F1ABB834} = {70A8C36D-8408-4D54-A851-920E3F1CEC04}
 	EndGlobalSection
 EndGlobal
